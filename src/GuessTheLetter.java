@@ -11,7 +11,12 @@ public class GuessTheLetter {
 
         if (ch == answer)
             System.out.println("** Right **");
-        else
-            System.out.println("...Sorry. You are wrong.");
+        else {
+            System.out.print("...Sorry. You are ");
+            if (ch < answer)
+                System.out.println("too low.");
+            else
+                System.out.println("too high.");
+        }
     }
 }
