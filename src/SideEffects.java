@@ -1,5 +1,5 @@
 /**
- * Difference between short-circuit and not short-ciertcuit logical operator
+ * Difference between short-circuit and not short-circuit logical operator
  * Side effects can be important
  */
 class SideEffects {
