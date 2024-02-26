@@ -8,8 +8,9 @@ public class StopLoopWithKeyboard {
 
         System.out.println("Press 'S' to stop");
 
-        for (i = 0; (char) System.in.read() != 'S'; i++) {
+        for (i = 0; (char) System.in.read() != 'S';) { //Note the missing increment statement
             System.out.println("Pass #" + i);
+            i++;  //The missing increment can be place inside the execution block
         }
     }
 }
